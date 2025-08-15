@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualización de Personalización de Productos</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+<body>
+    <h1>Visualización de Personalización de Productos</h1>
+    <div id="options">
+        <form>
+            <label for="personalization">Selecciona opción de personalización:</label>
+            <select id="personalization">
+                <option value="color">Color</option>
+                <option value="tamaño">Tamaño</option>
+                <option value="estilo">Estilo</option>
+            </select>
+        </form>
+    </div>
+    <canvas id="preferencesChart" width="400" height="400"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
